@@ -214,3 +214,16 @@ footer {
         display: none;
     }
 }
+
+/* For medium sized screen sizes from 1050px and down */
+
+@media screen and (max-width: 1050px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
