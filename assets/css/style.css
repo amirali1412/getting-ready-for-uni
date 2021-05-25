@@ -6,10 +6,30 @@
     border: none;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-    color: black;
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border: 0px solid black;
+}
+
+.col-6 {
+    width: 49%;
+    position: relative;
+    display: inline-block;
+}
+    
+
+.col-4 {
+    width: 32%;
+    align-items: center;
+    display: inline-block;
+}
+
+.col-3 {
+    width: 24%;
 }
 
 /* Headings and Logo */
@@ -23,15 +43,23 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: xx-large;
     margin-left: 30px;
-}
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+
+
 
 /* Navigation links */
 
 #menu {
-    font-size: 120%;
+    font-size: large;
     letter-spacing: 2px;
+    float: right;
+    width: 100%;
+    position: relative;
 }
 
 #menu, #logo {
@@ -39,9 +67,9 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin: 15px;
+    display: inline-block;
 }
 
 #menu a {
@@ -57,6 +85,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
 /* Hero Image */
 
 #hero-outer {
@@ -69,6 +98,7 @@ h1, h2 {
     height: 500px;
     width: 100%;
     background: url('../images/hero-image.jpg');
+}
 
 /* animates zoom affect on laoading page */
     animation: hero-zoom;
@@ -97,18 +127,16 @@ h1, h2 {
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
-    float: left;
+    width: 100%;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 33%;
-    float: right;
+    width: 100%;
 }
 
 #center-about {
-    width: 33%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -128,7 +156,7 @@ hr {
 
 .right-about-heading {
     width: 60%;
-    float: left;
+    float: left
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -141,24 +169,29 @@ hr {
 #welcome {
     text-align: center;
     margin: 40px 0;
-    font-size: 200%;
+    font-size: x-large;
 }
 
 #circle-container {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     border-style: solid;
     border-color: chocolate;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+    position: relative;
 }
 
 #circle-cover-bg {
     background: url('../images/uni-essentials-center-image.jpg');
     height: 100%;
     border-radius: 50%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 /* footer */
 
@@ -183,71 +216,15 @@ footer {
 
 /* Media Queries */
 
-/* For larger to medium screen sizes 1400px wide and down */
-
-@media screen and (max-width: 1400px) {
-    #uni-essentials {
-        width: 65%;
-        height: 1400px;
-        margin: 0 auto;
+@media screen and (max-width: 680px) {
+    #menu li {
+      width: 100%;
+      float: none;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #hr {
-        display: none;
-    }
-}
-
-/* For medium sized screen sizes from 1050px and down */
-
-@media screen and (max-width: 1050px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #uni-essentials {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
+    #logo {
+        font-size: x-large;
+        margin-left: 0px;
         text-align: center;
     }
-
-    .left-about-heading h3, .right-about-heading h3 {
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-}
+  } 
