@@ -6,6 +6,12 @@
     border: none;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
 .container-fluid {
     display: flex;
     flex-direction: row;
@@ -47,6 +53,7 @@ h1, h2 {
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
     
 
 
@@ -57,9 +64,7 @@ h1, h2 {
 #menu {
     font-size: large;
     letter-spacing: 2px;
-    float: right;
-    width: 100%;
-    position: relative;
+    text-align: right;
 }
 
 #menu, #logo {
@@ -100,8 +105,8 @@ h1, h2 {
     background: url('../images/hero-image.jpg');
 }
 
-/* animates zoom affect on laoading page */
-    animation: hero-zoom;
+/* animates zoom affect on loading page */
+    animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 
@@ -127,12 +132,13 @@ h1, h2 {
 
 #left-about {
     padding-top: 30px;
-    width: 100%;
+    width: 90%;
+    margin-left: 10%;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 100%;
+    width: 90%;
 }
 
 #center-about {
@@ -147,18 +153,12 @@ hr {
 }
 
 .left-about-heading {
-    width: 60%;
-    float: right;
     line-height: 20px;
-    clear: both;
     margin-bottom: 50px;
 }
 
 .right-about-heading {
-    width: 60%;
-    float: left
     line-height: 20px;
-    clear: both;
     margin-bottom: 50px;
 }
 
@@ -168,15 +168,18 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 40px 0;
     font-size: x-large;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -20px;
 }
 
 #circle-container {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-style: solid;
-    border-color: chocolate;
+    border-color: darkgreen;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -196,35 +199,40 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
+    position: static;
+    width: 100%;
+    background-color: darkgreen;
+    height: 120px;
+    margin-top: 50px;
+}
+
+.footer-holder {
+    padding-top: 25px;
 }
 
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
-    display: inline;
+.social-networks i {
+    font-size: x-large;
+    color: whitesmoke;
 }
 
-.social-networks i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+.copyright h3 {
+    color: whitesmoke;
+    margin-top: 30px;
+    text-align: right;
+    width: 100%;
+    font-size: medium;
+    margin-right: 10px;
 }
 
 /* Media Queries */
 
-@media screen and (max-width: 680px) {
-    #menu li {
-      width: 100%;
-      float: none;
-    }
-
-    #logo {
-        font-size: x-large;
-        margin-left: 0px;
-        text-align: center;
-    }
+@media only screen and (max-width: 700px) {
+    .col-6 {
+        width: 100%;
+        float: left;
+      }
   } 
