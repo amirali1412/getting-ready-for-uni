@@ -201,3 +201,44 @@ a.home{
         float: left;
       }
   } 
+
+  /***** Tips *****/
+
+.tips-holder{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.tips-text{
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+    position: relative;
+}
+
+.tips-text p {
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 25px;
+}
+
+.tips-image{
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+    position: relative;
+}
+
+.tips-image img{
+    width: 100%;
+    position: relative;
+}
+
+
+@media only screen and (min-width: 376px){
+    .tips-image, .tips-text{
+        width: 40%;
+        display: inline-block;
+    }
+}
