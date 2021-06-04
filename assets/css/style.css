@@ -242,3 +242,7 @@ a.home{
         display: inline-block;
     }
 }
+
+.tips-headings {
+    margin-left: 15px;
+}
