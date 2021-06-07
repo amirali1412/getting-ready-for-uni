@@ -242,10 +242,11 @@ a.home{
 }
 
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 700px){
     .tips-image, .tips-text{
         width: 40%;
         display: inline-block;
+        vertical-align: middle;
     }
 
     .tips-headings {
@@ -253,6 +254,8 @@ a.home{
         margin-left: 10px;
     }
 }
+
+
 
 /** Questions **/
 
