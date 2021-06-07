@@ -213,6 +213,7 @@ a.home{
 .tips-text{
     width: 90%;
     margin-left: 5%;
+    margin-right: 5%;
     display: block;
     position: relative;
 }
@@ -233,16 +234,22 @@ a.home{
 .tips-image img{
     width: 100%;
     position: relative;
-}
-
-
-@media only screen and (min-width: 376px){
-    .tips-image, .tips-text{
-        width: 40%;
-        display: inline-block;
-    }
+    margin-right: 5px;
 }
 
 .tips-headings {
-    margin-left: 15px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 600px){
+    .tips-image, .tips-text{
+        width: 40%;
+        display: -webkit-inline-box;
+    }
+
+    .tips-headings {
+        text-align: left;
+        margin-left: 10px;
+    }
 }
