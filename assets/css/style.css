@@ -253,3 +253,16 @@ a.home{
         margin-left: 10px;
     }
 }
+
+/** Questions **/
+
+.form-background-image {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-image: url('../images/student-asking-question.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
