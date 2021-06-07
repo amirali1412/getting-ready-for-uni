@@ -193,13 +193,13 @@ a.home{
     padding-bottom: 15px;
 }
 
-/* Media Queries */
-
-@media only screen and (max-width: 580px) and (min-width: 400) {
-    .col-6 {
-        width: 0%;
-        float: left;
-      }
+@media only screen and (min-width: 1000px) {
+    .social-networks i {
+        color: white;
+        font-size: xxx-large;
+        margin: 10px;
+        padding: 40px;
+    }
   } 
 
   /***** Tips *****/
