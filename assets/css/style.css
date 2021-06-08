@@ -118,7 +118,7 @@ a.home{
     height: 300px;
   }
   .image-text{
-      margin-top: 70px;
+      margin-top: 30px;
       width: 30%;
       font-size: large;
   }
@@ -242,7 +242,7 @@ a.home{
 }
 
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 1000px){
     .tips-image, .tips-text{
         width: 40%;
         display: inline-block;
@@ -269,3 +269,11 @@ a.home{
     background-repeat: no-repeat;
 }
 
+.form-main {
+    margin: 30px;
+    margin-left: 5%;
+}
+
+textarea {
+    border:#3a3a3a
+}
