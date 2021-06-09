@@ -31,7 +31,7 @@ a.home{
     display: block;
 }
 
-/* Navigation links */
+/***** Navigation links *****/
 
 #menu {
     font-size: large;
@@ -78,7 +78,7 @@ a.home{
   }
 }
 
-/**** Hero Image ****/
+/***** Hero Image *****/
 .hero-image{
     width: 100%;
     position: relative;
@@ -127,7 +127,7 @@ a.home{
   }
 }
 
-/**** Where to start ******/
+/***** Where to start *****/
 
 .start-text-holder{
     width: 100%;
@@ -161,7 +161,7 @@ a.home{
     }
 }
 
-/*** Footer ***/
+/***** Footer *****/
 
 .footer-section {
     background-color: darkgreen;
@@ -257,7 +257,7 @@ a.home{
 
 
 
-/** Questions **/
+/***** Questions *****/
 
 .form-background-image {
     width: 100%;
