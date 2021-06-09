@@ -17,3 +17,17 @@ The footer section has social media links that are most likely to be used by stu
 The Tips page has a paragraph on each of the 4 points on the home page. There are images coresponding to each point to help reinforce the information provided in each paragraph.
 
 The Questions page is to help the user with any specific questions they may have based on their indivdual needs.
+
+### testing 
+
+The site works in all screen sizes from small smartphones to large computer screens.
+
+#### validator testing
+
+-HTML
+    -no errors were returned when passed through the offical W3C Validator
+
+-CSS
+    -no errors were returned when passed through the official (Jigsaw) Validator
+
+
