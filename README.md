@@ -35,7 +35,7 @@ In the excitement of getting a place at a university, as well as due to lack of 
 
         The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font used frequently in programming, so it is both attractive and appropriate.
     -Imagery
-    
+
         Imagery is important. The large, background hero image is designed to catch the user's attention. It immediately registers in the user's mind as to what the site is about.
 
 -Wireframes
@@ -46,8 +46,13 @@ Tips Page Wireframe - View
 
 Question Page Wireframe - View
 
+### Features
 
-### technologies used
+-Responsive on all device sizes
+
+-Interactive elements
+
+#### Technologies Used
 
 -Languages used
 
@@ -72,12 +77,7 @@ Question Page Wireframe - View
         -Balsamiq was used to create the wireframes during the design process.
 
 
-
 #### testing 
-
-The site is responsive to all screen sizes from small smartphones to large computer screens.
-
-##### validator testing
 
 -HTML
     -no errors were returned when passed through the offical W3C Validator
@@ -85,12 +85,12 @@ The site is responsive to all screen sizes from small smartphones to large compu
 -CSS
     -no errors were returned when passed through the official (Jigsaw) Validator
 
-###### deployment
+##### deployment
 
 
 
 
-####### credits
+###### credits
 
 -Content
     -the icons in the footers of each of my pages were taken from font awesome.
@@ -104,6 +104,11 @@ The site is responsive to all screen sizes from small smartphones to large compu
 
     -the image question page was taken from google search.
 
+-Acknowledgements
+
+My Mentor for continuous helpful feedback.
+
+Tutor support at Code Institute for their support.
 
 
 
