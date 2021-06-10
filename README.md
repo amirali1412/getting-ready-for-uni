@@ -18,11 +18,37 @@ The Tips page has a paragraph on each of the 4 points on the home page. There ar
 
 The Questions page is to help the user with any specific questions they may have based on their indivdual needs.
 
-### testing 
+### technologies used
 
-The site works in all screen sizes from small smartphones to large computer screens.
+-Languages used
 
-#### validator testing
+    -HTML5
+    -CSS3
+
+-Frameworks, languages and programs used
+
+    1.Google Fonts:
+        -Google Fonts were used to import the 'roboto' font into the style.css file which was used throughout the project on all pages
+
+    2.Font Awesome:
+        -Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+    3.Git:
+        -Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+    4.Github
+        -GitHub is used to store the projects code after being pushed from Git.
+
+    5.Balsamiq
+        -Balsamiq was used to create the wireframes during the design process.
+
+
+
+#### testing 
+
+The site is responsive to all screen sizes from small smartphones to large computer screens.
+
+##### validator testing
 
 -HTML
     -no errors were returned when passed through the offical W3C Validator
@@ -30,7 +56,7 @@ The site works in all screen sizes from small smartphones to large computer scre
 -CSS
     -no errors were returned when passed through the official (Jigsaw) Validator
 
-##### credits
+###### credits
 
 -Content
     -the icons in the footers of each of my pages were taken from font awesome.
