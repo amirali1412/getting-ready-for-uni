@@ -276,6 +276,7 @@ a.home{
 
 input, textarea {
     border:#3a3a3a solid 1px;
+    margin-bottom: 1rem;
 }
 
 button {
