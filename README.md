@@ -4,25 +4,28 @@ Getting Ready For Uni is a site that will help students to be fully prepared by 
 
 In the excitement of getting a place at a university, as well as due to lack of experience, students may overlook certain key aspects of the preparations for university.  The purpose of this site ids to guide students through the process of getting from their home to being setup in their accomodation.
 
-## User Experience
+## User Experience (UX)
 
 -User Stories
 
     -First Time Visitor Goals
 
         1.As a First Time Visitor, I want to easily understand the main purpose of the site.
+        
         2.As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3.As a First Time Visitor, I want to see if this site is applicable to me. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        
+        3.As a First Time Visitor, I want to see if this site is applicable to me. 
 
     -Returning Visitor Goals
 
         1.As a Returning Visitor, I want to find information that I may not have previously thought of.
-        2.As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3.As a Returning Visitor, I want to find community links.
+        
+        2.As a Returning Visitor, I want to find the best way to answer any questions I may have.
 
     -Frequent User Goals
 
         1.As a Frequent User, I want to check to see if there are any new information that was not there before.
+        
         2.As a Frequent User, I want to ask a question that did not come into my mind earlier.
     
 -Design
@@ -84,6 +87,60 @@ Question Page Wireframe - View
     W3C Markup Validator - Results
 
     W3C CSS Validator - Results
+
+Testing User Stories from User Experience (UX) Section
+
+    -First Time Visitor Goals
+
+        1.As a First Time Visitor, I want to easily understand the main purpose of the site.
+
+            a.Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text.
+            
+            b.There are 3 main categories immediately below the hero image.
+            
+            c.The 3 main categories are each further split into 4 points each respectively.
+
+        2.As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+            a.The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+            
+            b.At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+            
+            c.On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+
+        3.As a First Time Visitor, I want to see if this site is applicable to me. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+            a.Once the new visitor has looked at the site and read through the categories and points, they will know exactly how this site relates to them.
+            
+            b.The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+            
+    -Returning Visitor Goals
+
+        1.As a Returning Visitor, I want to find information that I may not have previously thought of.
+
+            a.The user can also go to the Tips page which will prompt them with more ideas by seeing the images and reading the information in the corresponding paragraphs.
+
+            b.This can be easily done on the Questions page by filling out the form.
+
+        2.As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+            a.The navigation bar clearly highlights the "Questions" Page.
+
+            b.Here they can fill out the form on the page or they can message the organisation on social media.
+            
+            c.The footer contains links to Facebook, Instagram, SnapChat an Twitter page.
+
+            d.Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+
+    -Frequent User Goals
+
+        1.As a Frequent User, I want to check to see if there are any new information that was not there before.
+
+            a.The user would already be comfortable with the website layout.
+
+        2.As a Frequent User, I want to ask a question that did not come into my mind earlier.
+
+            a.The user would already be comfortable with the website layout and can easily click on "Questions" in the navigation bar.
 
 ##### Deployment
 
