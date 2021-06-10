@@ -77,38 +77,38 @@ Question Page Wireframe - View
         -Balsamiq was used to create the wireframes during the design process.
 
 
-#### testing 
+#### Testing 
 
--HTML
-    -no errors were returned when passed through the offical W3C Validator
+    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--CSS
-    -no errors were returned when passed through the official (Jigsaw) Validator
+    W3C Markup Validator - Results
 
-##### deployment
+    W3C CSS Validator - Results
 
-
+##### Deployment
 
 
-###### credits
+
+
+###### Credits
 
 -Content
-    -the icons in the footers of each of my pages were taken from font awesome.
+    -The icons in the footers of each of my pages were taken from font awesome.
 
-    -all content was written by the developer.
+    -All content was written by the developer.
 
 -Media
-    -the image from the home page (hero-image) was taken from google search.
+    -The image from the home page (hero-image) was taken from google search.
 
-    -the images from the tips page were all taken from google search.
+    -The images from the tips page were all taken from google search.
 
-    -the image question page was taken from google search.
+    -The image question page was taken from google search.
 
 -Acknowledgements
 
-My Mentor for continuous helpful feedback.
+    -My Mentor for continuous helpful feedback.
 
-Tutor support at Code Institute for their support.
+    -Tutor support at Code Institute for their support.
 
 
 
