@@ -142,6 +142,16 @@ Testing User Stories from User Experience (UX) Section
 
             a.The user would already be comfortable with the website layout and can easily click on "Questions" in the navigation bar.
 
+Further Testing
+
+1.The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+
+2.The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+
+3.A large amount of testing was done to ensure that all pages were linking correctly.
+
+4.Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 ##### Deployment
 
 
