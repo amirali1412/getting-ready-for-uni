@@ -30,4 +30,18 @@ The site works in all screen sizes from small smartphones to large computer scre
 -CSS
     -no errors were returned when passed through the official (Jigsaw) Validator
 
+##### credits
+
+-Content
+    -the icons in the footers of each of my pages were taken from font awesome.
+
+-Media
+    -the image from the home page (hero-image) was taken from google search.
+
+    -the images from the tips page were all taken from google search.
+
+    -the image question page was taken from google search.
+
+
+
 
